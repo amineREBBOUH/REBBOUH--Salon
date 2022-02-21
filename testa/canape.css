@@ -1,0 +1,209 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-image: linear-gradient( to left,rgb(238, 224, 198) 50%,white);
+}
+header div ul{
+    display: flex;
+  
+}
+header div ul li a{
+    margin-left: 15px;
+}
+/*nav{
+   
+    background-image:url(pict/canap1.jpg);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ 
+
+}*/
+#sas{
+     background-color: rgb(226, 166, 166); position:absolute; width: 100%; height: 300px;
+     display: none;
+   
+}
+#sa{
+    background-color: rgb(226, 166, 166); position:absolute; width: 100%; height: 300px;
+    display: block;
+  
+}
+nav ul li {
+    border-bottom: 2px solid black;
+    padding: 8px;
+    
+}
+.a{
+    color: black;
+}
+.body{
+   padding: 50px 10px;
+    display: flex;
+    
+    width: 100%;
+   /* background-color: rgb(255, 255, 255);*/
+}
+.input{
+    border-radius: 20px;
+}
+.input:hover{
+    background-color: rgb(76, 88, 88);
+}
+.fa-search{
+    position: relative;
+right: 25px;
+
+}
+.cate {
+    width: 30%;
+}
+.cont{
+    width: 80%;
+    position: relative;
+}
+
+.cont-img{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+   
+}
+.ana{
+
+    width: 40%;
+    height: 300px;
+    background-color: rgb(255, 249, 249);
+    margin: 15px;
+    padding: 8px;
+    position: relative;
+}
+img{
+   
+    width: 95%;
+    height: 200px;
+   
+}
+.circle{
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(235, 213, 116);
+    position: relative;
+    animation: cir 40s linear infinite;
+}
+
+@keyframes cir{
+    0%{
+        top: 0%;
+    }
+    10%{    top: 10%;}
+    20%{    top: 20%;}
+    30%{    top: 30%;}
+    40%{    top: 40%;}
+    50%{    top: 50%;}
+    60%{    top: 60%;}
+    70%{    top: 70%;}
+    80%{    top: 80%;}
+    90%{    top: 90%;}
+    100%{    top: 95%;}
+}
+.fa-arrow-right{
+    
+    position: absolute;
+    margin: 37%;
+}
+.titre{
+    text-align: center;
+    margin: 10px;
+    background-image: linear-gradient( to left,rgb(238, 224, 198) 50%,white);
+}
+h5{
+    color: greenyellow;
+}
+h6{
+    color: red;
+}
+ul li a ,#r a {
+    text-decoration: none;
+}
+ul li {
+    list-style:none;
+}
+.fin{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+    padding-top: 5px;
+   
+}
+.fin #r{
+  display: flex;
+
+}
+#r p{
+ 
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 5px;
+}
+.service{
+    background-color: rgb(224, 218, 218);
+    width: 80%;
+    height: 200px;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+footer{
+  background-image: linear-gradient( to left,rgb(238, 224, 198) 50%,white);
+   padding: 25px;
+}
+#name,#email,textarea{
+    width: 100%;
+    border: 2px solid rgb(26, 27, 27);
+    background-color: transparent;
+}
+button{
+    border: 2px solid rgb(26, 27, 27);
+    background-color: transparent; 
+}
+.foot{
+    border:0.5px solid black;
+        width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.myDIV {
+    display:none;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+
+
+
+@media only screen and (max-width:850px) {
+    .cate{
+        display: none;
+    }
+    .ana , .cont-img{
+        width: 100%;
+    }
+    .body{
+      
+        align-items: center;
+        flex-direction: column;
+    }
+    .fin{
+        width: 100%;
+    }
+}
